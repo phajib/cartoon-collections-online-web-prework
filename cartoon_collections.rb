@@ -23,6 +23,6 @@ def find_the_cheese(cheese)
   #a = (cheese << cheese_types).flatten!
   #cheese.difference(cheese_types)
   a = cheese & cheese_types
-  "a"
+  a[0]
 
 end
