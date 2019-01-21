@@ -21,5 +21,5 @@ end
 def find_the_cheese(cheese)
   a=[]
   cheese_types = ["cheddar", "gouda", "camembert"]
-  (cheese << cheese_types).flatten!
+  (cheese << cheese_types).flatten!.uniq
 end
