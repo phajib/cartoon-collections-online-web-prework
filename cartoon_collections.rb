@@ -21,5 +21,6 @@ end
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   #a = (cheese << cheese_types).flatten!
-  cheese.difference(cheese_types)
+  #cheese.difference(cheese_types)
+  cheese & cheese_types
 end
