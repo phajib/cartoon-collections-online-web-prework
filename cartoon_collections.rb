@@ -19,7 +19,6 @@ def long_planeteer_calls(call)
 end
 
 def find_the_cheese(cheese)
-  a=[]
   cheese_types = ["cheddar", "gouda", "camembert"]
-  (cheese << cheese_types).flatten!.uniq
+  a = (cheese << cheese_types).flatten!
 end
