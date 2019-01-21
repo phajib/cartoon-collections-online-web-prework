@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(caps)
   caps.each do |first|
-    first.capitalize + !
+    first.capitalize + "!"
   end
 end
 
