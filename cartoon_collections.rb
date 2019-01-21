@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(caps)
-  caps.map do |first|
+  caps.each { |chr|  } do |first|
     puts "#{first.capitalize}!"
   end
 end
