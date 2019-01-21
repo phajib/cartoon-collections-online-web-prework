@@ -10,7 +10,7 @@ def summon_captain_planet(caps)
   end
 end
 
-def long_planeteer_calls(call, sum)
+def long_planeteer_calls(call)
   call.include? do |str|
     if str.length < 4
       return false
