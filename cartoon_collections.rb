@@ -13,7 +13,7 @@ def summon_captain_planet(caps)
 end
 
 def long_planeteer_calls(call)
-  call.any? do |str|
+  call.each do |str|
     if str.length > 4
       return true
     else
